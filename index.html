@@ -21,12 +21,8 @@
       crossorigin
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
       rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link
       rel="stylesheet"
@@ -36,41 +32,41 @@
 
   <body>
     <!-- Header -->
-    <header>
-      <nav class="nav">
-        <a href="./main.html">
+    <header class="header">
+      <nav class="header__nav">
+        <a href="./index.html">
           <img
             src="./images/logo/logo.svg"
             alt="logo"
           />
         </a>
 
-        <ul class="navigation list">
-          <li>
+        <ul class="header__list__nav list">
+          <li class="header__list__nav_name">
             <a
-              href="#"
-              class="unline"
+              href="#about"
+              class="header__list__nav_link unline"
               >About</a
             >
           </li>
-          <li>
+          <li class="header__list__nav_name">
             <a
               href="#"
-              class="unline"
+              class="header__list__nav_link unline"
               >Services and Prices</a
             >
           </li>
-          <li>
+          <li class="header_list__nav_name">
             <a
               href="#"
-              class="unline"
+              class="header__list__nav_link unline"
               >Barbers</a
             >
           </li>
-          <li>
+          <li class="header__list__nav_name">
             <a
               href="#"
-              class="unline"
+              class="header__list__nav_link unline"
               >Contacts</a
             >
           </li>
@@ -79,12 +75,12 @@
 
       <a
         href="tel:+380441111111"
-        class="unline"
+        class="header__phone unline"
         >+38 044 111 11 11</a
       >
       <button
         type="button"
-        class="button"
+        class="button__black"
       >
         ONLINE-BOOKING
       </button>
@@ -92,30 +88,30 @@
 
     <main>
       <!-- -------------------HERO SECTION -->
-      <section>
-        <ul class="list">
-          <li>
+      <section class="hero">
+        <ul class="hero__list list">
+          <li class="hero__list_item">
             <a
               href="https://www.instagram.com"
-              class="unline"
+              class="hero__link unline"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >Instagram</a
             >
           </li>
-          <li>
+          <li class="hero__list_item">
             <a
               href="https://www.youtube.com"
-              class="unline"
+              class="hero__link unline"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >Youtube</a
             >
           </li>
         </ul>
-        <p class="text1">A hair salon for men in Kyiv</p>
-        <h1 class="header1">BarberShop</h1>
-        <p class="text2">
+        <p class="hero__text_first text1">A hair salon for men in Kyiv</p>
+        <h1 class="hero__header header1">BarberShop</h1>
+        <p class="hero__text_main">
           We are experts in trendy men’s haircuts. We work quickly, carefully
           and with style.
         </p>
@@ -123,9 +119,12 @@
       <!-- -------------------HERO SECTION -->
 
       <!-- -------------------ABOUT SECTION -->
-      <section>
-        <ul class="list">
-          <li>
+      <section
+        class="about_section"
+        id="about"
+      >
+        <ul class="about__list list">
+          <li class="about__list_item">
             <img
               src="./images/about/about1.jpg"
               alt="about1"
@@ -133,7 +132,7 @@
               height="445"
             />
           </li>
-          <li>
+          <li class="about__list_item">
             <img
               src="./images/about/about2.jpg"
               alt="about2"
@@ -143,13 +142,13 @@
           </li>
         </ul>
 
-        <p>About</p>
-        <h2 class="header2">Best Barbershop in your city</h2>
-        <p>
+        <p class="about__title text1">About</p>
+        <h2 class="about__header header2">Best Barbershop in your city</h2>
+        <p class="about__text_description text2">
           If you want to add more confidence to your image, you should
           definitely visit us.
         </p>
-        <p>
+        <p class="about__text_content text3">
           We are a team that never stops at what has been achieved and are
           thirsty for changes. And when you fall into the hands of our master,
           you will never be the same again. We are a team that is always "on the
@@ -172,39 +171,39 @@
         <h2 class="header2">Services and prices</h2>
         <ul class="list">
           <li>
-            <p>Men’s haircut</p>
-            <p>from 300 uah.</p>
+            <p class="text2">Men’s haircut</p>
+            <p class="text2">from 300 uah.</p>
           </li>
           <li>
-            <p>Beard trim</p>
-            <p>from 300 uah.</p>
+            <p class="text2">Beard trim</p>
+            <p class="text2">from 300 uah.</p>
           </li>
           <li>
-            <p>Mustache trim</p>
-            <p>from 200 uah.</p>
+            <p class="text2">Mustache trim</p>
+            <p class="text2">from 200 uah.</p>
           </li>
           <li>
-            <p>Straight razor shave</p>
-            <p>from 200 uah.</p>
+            <p class="text2">Straight razor shave</p>
+            <p class="text2">from 200 uah.</p>
           </li>
         </ul>
 
         <ul class="list">
           <li>
-            <p>Trainee’s haircut</p>
-            <p>from 50 uah.</p>
+            <p class="text2">Trainee’s haircut</p>
+            <p class="text2">from 50 uah.</p>
           </li>
           <li>
-            <p>Haircut under the nozzle</p>
-            <p>from 200 uah.</p>
+            <p class="text2">Haircut under the nozzle</p>
+            <p class="text2">from 200 uah.</p>
           </li>
           <li>
-            <p>Children’s haircut (0-12 y.o.)</p>
-            <p>from 200 uah.</p>
+            <p class="text2">Children’s haircut (0-12 y.o.)</p>
+            <p class="text2">from 200 uah.</p>
           </li>
           <li>
-            <p>Camouflage of gray hair</p>
-            <p>from 200 uah.</p>
+            <p class="text2">Camouflage of gray hair</p>
+            <p class="text2">from 200 uah.</p>
           </li>
         </ul>
 
@@ -238,9 +237,9 @@
         </li>
       </ul>
 
-      <p>Old traditional school</p>
+      <p class="text1">Old traditional school</p>
       <h2 class="header2">¿Why people come to us?</h2>
-      <p>
+      <p class="text2">
         Only good things are said about us. But it's better to see and feel 1
         time than read 10 times.
       </p>
@@ -250,8 +249,8 @@
       <!-- -------------------BARBERS SECTION -->
 
       <section>
-        <p class="text3">For true enjoyers of the atmosphere</p>
-        <h2 class="header2"></h2>
+        <p class="text1">For true enjoyers of the atmosphere</p>
+        <h2 class="barbers_header header2">Our barbers</h2>
         <ul class="list">
           <li>
             <img
@@ -260,7 +259,7 @@
               width="370"
               height="346"
             />
-            <p class="text__card_barber">John Smith</p>
+            <p class="text__card_barber text2">John Smith</p>
             <p class="text__card-barber-orange">Extreme Barber</p>
             <ul>
               <li></li>
@@ -276,7 +275,7 @@
               width="370"
               height="346"
             />
-            <p class="text__card_barber">Michele Doe</p>
+            <p class="text__card_barber text2">Michele Doe</p>
             <p class="text__card-barber-orange">Extreme Barber</p>
             <ul>
               <li></li>
@@ -292,7 +291,7 @@
               width="370"
               height="346"
             />
-            <p class="text__card_barber">Alan Black</p>
+            <p class="text__card_barber text2">Alan Black</p>
             <p class="text__card-barber-orange">Extreme Barber</p>
             <ul>
               <li></li>
